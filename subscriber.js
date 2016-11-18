@@ -1,5 +1,5 @@
 var fs = require('fs'),
-    config = fs.readFileSync('./config.json'),
+    config = fs.readFileSync('/etc/vpw/config.json'),
     chalk = require('chalk'),
     info = chalk.green,
     warn = chalk.yellow,
